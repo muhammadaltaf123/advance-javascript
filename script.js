@@ -106,13 +106,13 @@ let result = numbers.find(num => num > 10);
 console.log(result);
 
 // 20) Print names using forEach
-let names = ["Ali", "Zara", "Umar"];
+let names = ["Ali", "asif", "Umar"];
 names.forEach(name => console.log(name));
 
 // 21) Map student names
 const students = [
     { name: "Ali", marks: 80 },
-    { name: "Zara", marks: 95 },
+    { name: "asif", marks: 95 },
     { name: "Umar", marks: 45 }
 ];
 let namesList = students.map(s => s.name);
@@ -137,7 +137,7 @@ let squared = arr.map(n => n * n);
 console.log(squared);
 
 // 26) Display each name
-let people = ["Ali", "Zara", "Umar", "Ahmed"];
+let people = ["Ali", "asif", "Umar", "Ahmed"];
 people.forEach(name => console.log(name));
 
 // 27) Ages > 18
@@ -152,7 +152,7 @@ console.log(fruitsArr.includes("apple"));
 // 29) Find student > 90 marks
 let resultStudent = [
     { name: "Ali", marks: 75 },
-    { name: "Zara", marks: 92 },
+    { name: "asif", marks: 92 },
     { name: "Umar", marks: 85 }
 ].find(s => s.marks > 90);
 console.log(resultStudent);
@@ -164,7 +164,7 @@ console.log(total);
 // 31) Return usernames
 let users = [
     { id: 1, username: "ali123" },
-    { id: 2, username: "zara88" },
+    { id: 2, username: "asif88" },
     { id: 3, username: "umar_01" }
 ];
 let usernames = users.map(u => u.username);
@@ -191,8 +191,8 @@ tasks.forEach(t => {
 
 // 35) Add "status": "active" to employees
 let employees = [
-    { name: "Ali" },
-    { name: "Zara" }
+    { name: "Altaf" },
+    { name: "yousuf" }
 ];
 let updated = employees.map(e => ({ ...e, status: "active" }));
 console.log(updated);
